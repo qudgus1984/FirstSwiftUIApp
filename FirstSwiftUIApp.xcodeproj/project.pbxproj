@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F293E362965117900103678 /* Tamagochi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F293E352965117900103678 /* Tamagochi.swift */; };
 		2FC7EA0D294FF41100038CD6 /* FirstSwiftUIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7EA0C294FF41100038CD6 /* FirstSwiftUIAppApp.swift */; };
 		2FC7EA0F294FF41100038CD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7EA0E294FF41100038CD6 /* ContentView.swift */; };
 		2FC7EA11294FF41100038CD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC7EA10294FF41100038CD6 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F293E352965117900103678 /* Tamagochi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tamagochi.swift; sourceTree = "<group>"; };
 		2FC7EA09294FF41100038CD6 /* FirstSwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC7EA0C294FF41100038CD6 /* FirstSwiftUIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSwiftUIAppApp.swift; sourceTree = "<group>"; };
 		2FC7EA0E294FF41100038CD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			children = (
 				2FC7EA0C294FF41100038CD6 /* FirstSwiftUIAppApp.swift */,
 				2FC7EA0E294FF41100038CD6 /* ContentView.swift */,
+				2F293E352965117900103678 /* Tamagochi.swift */,
 				2FC7EA10294FF41100038CD6 /* Assets.xcassets */,
 				2FC7EA12294FF41100038CD6 /* Preview Content */,
 				2FC7EA1A294FF89000038CD6 /* ExampleView.swift */,
@@ -146,6 +149,7 @@
 				2FC7EA1D295002EC00038CD6 /* ListView.swift in Sources */,
 				2FC7EA0F294FF41100038CD6 /* ContentView.swift in Sources */,
 				2FC7EA0D294FF41100038CD6 /* FirstSwiftUIAppApp.swift in Sources */,
+				2F293E362965117900103678 /* Tamagochi.swift in Sources */,
 				2FC7EA1B294FF89000038CD6 /* ExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
