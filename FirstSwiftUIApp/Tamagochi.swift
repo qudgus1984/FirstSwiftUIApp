@@ -74,12 +74,22 @@ struct Tamagochi: View {
     @State private var riceCount: Int = 0
     @State private var waterCount: Int = 0 //@State : 다른 뷰와 공유 X
     @State private var showModal = false
+    @State private var isAnimating = false
+    
     var characterName: some View {
         Text("방실방실 다마고치 \(Int.random(in: 1...100))")
     }
     
     var body: some View { //뷰 렌더링
         VStack(spacing: 10) {
+            VStack(spacing: 10) {
+                Image(systemName: "star")
+                    .resizable()
+                    .frame(width: 200, height: 200)
+                    .background(.gray)
+                    .offset(x: isAnimating ? -100 : 100, y: isAnimating ? 0 : 100)
+                    .animation(.easeOut.speed(0.2).repeatCount(5), value: isAnimating)
+            }
             ZStack {
                 characterName
                     .padding(100)
@@ -107,6 +117,7 @@ struct Tamagochi: View {
         .onAppear(perform: {
             print("viewDidAppear")
             print("viewDidLoad에서 하고싶은 일들을 요기 쓰면 이상해짐...")
+            isAnimating = true
         })
         .onDisappear {
             print("viewDidDisappear")
