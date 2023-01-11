@@ -8,14 +8,18 @@
 import SwiftUI
 
 struct ExampleView: View {
+    
+    @State var text = "Hello, World!"
+    @State var textJack = "안녕하세요. Hello, Jack"
+
     var body: some View {
         VStack {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            Text(text)
                 .font(.title)
                 .foregroundColor(.brown)
                 .fontWeight(.heavy)
             Spacer()
-            Text("안녕하세요. Hello, Jack")
+            Text(textJack)
                 .font(.caption)
                 .foregroundColor(.cyan)
                 .italic()
